@@ -19,8 +19,8 @@ Create the database table called ```messages``` with the following criteria. Use
 
 | Column                       | Validation              | Example                         |
 | ---------------------------- | ----------------------- | ------------------------------- |
-| user: string                 | min length of 3 chars   | “Bob”                           |
-| body: string                 | max length of 250 chars | “Hello!”                        |
+| user_name: string                 | null false, min length of 3 chars   | “Bob”                           |
+| body: string                 | null false, max length of 250 chars | “Hello!”                        |
 | created_at: date time object |                         | Wed, 13 Sep 2023 00:00:00 +0000 |
 
 ## Model
@@ -35,7 +35,7 @@ Create a model for the Message table. This model should validate the presence of
 - The created_at timestamp of the message.
   
 ~ Bonus points for styling ~  
-Style each message to look like screenshot below utilizing [Bootstrap]   
+Style each message to look like screenshot below utilizing [Bootstrap](https://getbootstrap.com)   
 <img width="727" alt="Screenshot 2023-09-13 at 4 50 40 PM" src="https://github.com/mitchjindra413/tutoria_interview_project/assets/65314998/1fb760b2-6dc9-4856-bf43-ee4f67849131">
 
 
