@@ -12,7 +12,7 @@ You are tasked with creating a simple Rails message app that allows users to vie
 ## Rails and Make Commands
 To run Rails commands, you can use Make commands.
 1. In separate terminal, run ```make shell```
-2. Run Rails commands inside the make shell, e.g. ```rails db:migrate```, ```rails db:seeds```.
+2. Run Rails commands inside the make shell, e.g. ```rails db:migrate```, ```rails db:seed```.
 
 ## Schema
 Create the database table called ```messages``` with the following criteria. Use Rails migration for this task:
